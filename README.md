@@ -59,10 +59,10 @@ uses a ≥5% position change threshold to avoid excessive turnover.
 
 ## Setup
 ```bash
-git clone https://github.com/sakshammgarg/HMM_Regime_Detection
+git clone https://github.com/sakshammgarg/HMM_Regime_Detection.git
 cd HMM_Regime_Detection
 pip install -r requirements.txt
-python src/hmm_regime_extended.py
+python Models/hmm_regime_extended.py
 ```
 
 ## Output
