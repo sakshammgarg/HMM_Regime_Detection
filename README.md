@@ -72,11 +72,9 @@ See `requirements.txt`. Main dependencies: `yfinance`, `hmmlearn`,
 
 ## Output
 
-Running the script produces all figures in `outputs/figures/`, CSVs in 
-`outputs/data/`, and a full PDF report at `outputs/regime_detection_report.pdf`.
+Running the script produces all figures in `Outputs/figures/`, CSVs in 
+`Outputs/data/`, and a full PDF report at `Outputs/regime_detection_report.pdf`.
 ```
-
----
 
 **`requirements.txt`:**
 ```
@@ -89,8 +87,6 @@ matplotlib>=3.7.0
 seaborn>=0.12.0
 reportlab>=4.0.0
 ```
-
----
 
 **`.gitignore`:**
 ```
