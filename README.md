@@ -65,35 +65,8 @@ pip install -r requirements.txt
 python src/hmm_regime_extended.py
 ```
 
-## Requirements
-
-See `requirements.txt`. Main dependencies: `yfinance`, `hmmlearn`, 
-`scikit-learn`, `pandas`, `numpy`, `matplotlib`, `seaborn`.
-
 ## Output
 
 Running the script produces all figures in `Outputs/figures/`, CSVs in 
 `Outputs/data/`, and a full PDF report at `Outputs/regime_detection_report.pdf`.
 ```
-
-**`requirements.txt`:**
-```
-yfinance>=0.2.36
-hmmlearn>=0.3.0
-scikit-learn>=1.3.0
-pandas>=2.0.0
-numpy>=1.24.0
-matplotlib>=3.7.0
-seaborn>=0.12.0
-reportlab>=4.0.0
-```
-
-**`.gitignore`:**
-```
-__pycache__/
-*.pyc
-.DS_Store
-.env
-*.egg-info/
-dist/
-.ipynb_checkpoints/
